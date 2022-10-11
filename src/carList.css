@@ -1,0 +1,35 @@
+.car-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 2rem 0;
+  align-items: center;
+}
+
+.car-list__header {
+  display: flex;
+  flex-direction: row;
+  width: 918px;
+  margin-bottom: 2rem;
+  place-content: space-between;
+}
+
+.car-list__title {
+  font-size: 24px;
+  color: #333;
+}
+
+.car-list__filter {
+  width: 220px;
+  height: 35px;
+  font-size: 14px;
+  color: #333;
+  border: 1px solid #999;
+}
+
+.car-list__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 918px;
+}

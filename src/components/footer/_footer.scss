@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+
+    margin-bottom: 1rem;
+
+    &__author {
+        width: 918px;
+
+        &>span {
+            font-size: 12px;
+            color: #999;
+        }
+    }
+}

@@ -1,1 +1,1 @@
-# CarShop
+Vanilla Javascript Project

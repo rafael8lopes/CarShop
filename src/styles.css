@@ -1,0 +1,165 @@
+body,
+html {
+  margin: 0;
+  height: 100vh;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+  color: #fff;
+  font-size: 18px;
+  padding: 1rem;
+}
+
+.header__content {
+  display: flex;
+  width: 1024px;
+  align-items: flex-end;
+}
+
+.header__logo {
+  padding-left: 30px;
+}
+
+.header__mb-logo {
+  width: 50px;
+  margin-right: 2rem;
+}
+
+.header__mb-text {
+  font-family: auto;
+}
+
+.header__cart-content {
+  margin-left: auto;
+  padding-right: 53px;
+}
+
+.header__cart-icon {
+  width: 22px;
+}
+
+.car-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 2rem 0;
+  align-items: center;
+}
+
+.car-list__header {
+  display: flex;
+  flex-direction: row;
+  width: 918px;
+  margin-bottom: 2rem;
+  place-content: space-between;
+}
+
+.car-list__title {
+  font-size: 24px;
+  color: #333;
+}
+
+.car-list__filter {
+  width: 220px;
+  height: 35px;
+  font-size: 14px;
+  color: #333;
+  border: 1px solid #999;
+}
+
+.car-list__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 918px;
+}
+
+input[type=text] {
+  padding-left: 1rem;
+}
+
+#spinner {
+  display: flex;
+  height: 85%;
+  justify-content: center;
+  align-items: center;
+}
+
+#spinner > img {
+  width: 70px;
+}
+
+.car-card {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+
+.car-card__name {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.car-card__image {
+  max-width: 310px;
+}
+
+.car-card__price {
+  font-size: 20px;
+  color: #333;
+  padding: .5rem 1rem;
+}
+
+.car-card__price--selected {
+  color: #fff;
+  background-color: #2a2a2a;
+}
+
+.car-card__add-cart-btn {
+  font-size: 16px;
+  color: #fff;
+  background-color: #333;
+  padding: .5rem;
+  cursor: pointer;
+  border: 0;
+}
+
+.car-card__add-cart-btn:hover {
+  color: #999;
+  background-color: #3c3c3c;
+}
+
+.car-card__add-cart-btn--selected {
+  color: #999;
+  background-color: #3c3c3c;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin-bottom: 1rem;
+}
+
+.footer__author {
+  width: 918px;
+}
+
+.footer__author > span {
+  font-size: 12px;
+  color: #999;
+}
+
+.box-shadow {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}

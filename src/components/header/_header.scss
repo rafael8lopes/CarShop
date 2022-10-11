@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+  color: #fff;
+  font-size: 18px;
+  padding: 1rem;
+
+  &__content {
+    display: flex;
+    width: 1024px;
+    align-items: flex-end;
+  }
+
+  &__logo {
+    padding-left: 30px;
+  }
+
+  &__mb-logo {
+    width: 50px;
+    margin-right: 2rem;
+  }
+
+  &__mb-text {
+    font-family: auto;
+  }
+
+  &__cart-content {
+    margin-left: auto;
+    padding-right: 53px;
+  }
+
+  &__cart-icon {
+    width: 22px;
+  }
+}

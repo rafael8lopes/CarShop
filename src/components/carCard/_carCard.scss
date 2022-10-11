@@ -1,0 +1,48 @@
+.car-card {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin-bottom: 2rem;
+    cursor: pointer;
+
+    &__name {
+        font-size: 22px;
+        color: #333;
+        margin-bottom: 1rem;
+    }
+
+    &__image {
+        max-width: 310px;
+    }
+
+    &__price {
+        font-size: 20px;
+        color: #333;
+        padding: .5rem 1rem;
+
+        &--selected {
+            color: #fff;
+            background-color: #2a2a2a;
+        }
+    }
+
+    &__add-cart-btn {
+        font-size: 16px;
+        color: #fff;
+        background-color: #333;
+        padding: .5rem;
+
+        cursor: pointer;
+        border: 0;
+
+        &:hover {
+            color: #999;
+            background-color: #3c3c3c;
+        }
+
+        &--selected {
+            color: #999;
+            background-color: #3c3c3c;
+        }
+    }
+}

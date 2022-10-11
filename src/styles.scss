@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+@import "styles/base";
+@import "components/header/header";
+@import "components/carList/carList";
+@import "components/carCard/carCard";
+@import "components/footer/footer";
+
+.box-shadow {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
